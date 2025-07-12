@@ -1,11 +1,9 @@
 import { workoutProgram as training_plan } from "../utils/index.js";
 import WorkoutCard from "./WorkoutCard.jsx";
 
-import React from "react";
-
 function Grid() {
   const isLocked = false;
-  const selectedWorkout = 5;
+  const selectedWorkout = 0;
   return (
     <div className="training-grid-plan">
       {Object.keys(training_plan).map((item, index) => {
