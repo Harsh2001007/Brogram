@@ -100,6 +100,11 @@ function WorkoutCard({ trainingPlan, index, type, icon, dayNum }) {
           );
         })}
       </div>
+
+      <div className="workout-buttons">
+        <button>save & exit</button>
+        <button disabled={true}>complete</button>
+      </div>
     </div>
   );
 }
