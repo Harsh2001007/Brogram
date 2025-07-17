@@ -52,7 +52,7 @@ function WorkoutCard({ trainingPlan, index, type, icon, dayNum }) {
         </div>
         <h6>Sets</h6>
         <h6>Reps</h6>
-        <h6 className="weight-input">Max Weights</h6>
+        <h6 className="weight-input">Max Weight</h6>
         {workout.map((workoutExercise, workoutIndex) => {
           return (
             <React.Fragment key={workoutIndex}>
